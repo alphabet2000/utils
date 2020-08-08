@@ -1,3 +1,4 @@
+# it is probably best to just use threadpoolctl: https://github.com/joblib/threadpoolctl
 def set_num_threads(n):
     try: 
         import mkl
